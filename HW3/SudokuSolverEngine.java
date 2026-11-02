@@ -11,6 +11,8 @@ public class SudokuSolverEngine {
       
    }
    
+   //pre: board is not null
+   //post:input board is solved as pre and post steps are printed to the screen.
    public static void testBoard(SudokuBoard board) {
       System.out.println("Initial board state :");
       System.out.println(board);

@@ -36,7 +36,9 @@ public class SudokuBoard {
          System.out.println("Error opening file");
       }
    }   
-  
+
+   // pre: None.
+   //post: method will return true if board has been solved, false if not. Solves board if possible, returns boardstate to original state if not.
    public boolean solve() {
       
       boolean boardSolved = false;
